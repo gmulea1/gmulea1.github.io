@@ -95,7 +95,11 @@ Using the percent from each buffer zone, I created a graph in excel that compare
 
 ![Image]( gmulea1.github.io/balt_zones.png )
 
-This graph reveals the relationship of certain zones compared to distance from the River.  There are 4 main zones that change with distance: <span style="color:#2f57e7">Commercial</span>, <span style="color:#37a040">Residential</span>, <span style="color:#eada46">Industrial</span>, and <span style="color:#00ec00">Open Space</span>.  The rest of the zone types remain below 10% at any distance from the River.  The Commercial and Industrial Zones dominate 
+This graph reveals the relationship of certain zones compared to distance from the River.  There are 4 main zones that change with distance: <span style="color:#2f57e7">Commercial</span>, <span style="color:#37a040">Residential</span>, <span style="color:#eada46">Industrial</span>, and <span style="color:#00ec00">Open Space</span>.  The rest of the zone types remain below 10% at any distance from the River.
+
+The Commercial and Industrial Zones dominate the first mile from the River with a moderate amount of Residential and low Open Space.  While Commercial and Industrial occupy the same percent of area they do not occupy the same Geographical areas.  Commercial Zones occupies the area near to the North of the River (the center of Baltimore City) while the Industrial Zones occupy the majority of the area South of the city along the River.
+
+As distance increases from the River; Commercial and Industrial Zoning decreases and Residential Zoning increases rapidly.  
 
 ![Image]( gmulea1.github.io/hex1.JPG "3D Veiw of Baltimore City")
 [3D Image Download](gmulea1.github.io/hex.gltf)
