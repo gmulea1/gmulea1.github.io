@@ -101,7 +101,9 @@ The Commercial and Industrial Zones dominate the first mile from the River with 
 
 As distance increases from the River; Commercial and Industrial Zoning decreases and Residential Zoning increases rapidly.  Open Space increases and has a small peak at 3 miles and then decreases over the rest of distance.  Residential Zones Dominate the area after 3/4 miles away from the River, and reach almost 90% of the total zoning area.  
 
-Lastly, I created a grid of hexagons to be used for 3D Viewing.  I used a spatial zone to join the grid to the percent of each zone.
+---
+
+Lastly, I created a grid of hexagons to be used for 3D Viewing.  I used a spatial zone to join the grid to the percent of each zone.  Using Qgis2threejs plugin in QGIS I created a 3D image of the relative percent colored by the type of zoning. This best shows the sharp increase in the Residential Zoning as you move further from the River.   
 
 ![Image]( gmulea1.github.io/hex1.JPG "3D View of Baltimore City")
 [3D Image Download](gmulea1.github.io/hex.gltf)
