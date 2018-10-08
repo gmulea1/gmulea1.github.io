@@ -91,6 +91,8 @@ I calculated the geometry for each property zone and calculated the total area f
 
 > select simple, sum(area) as "1 Mile Area", (sum(area)/totalarea)*100 as "1 Mile Percent" from "1mile_zone" group by simple order by "1 Mile Percent" desc
 
+Using the percent from each buffer zone, I created a graph in excel that compares the distance to the percent area for each zone type.  
+
 ![Image]( gmulea1.github.io/balt_zones.png )
 
 ![Image]( gmulea1.github.io/hex1.JPG "3D Veiw of Baltimore City")
