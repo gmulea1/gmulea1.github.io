@@ -3,8 +3,10 @@ Gregory Mulea
 ## Zoning in Baltimore City
 
 ![Image](gmulea1.github.io/hex.gltf)
-
-
+![Image](gmulea1.github.io/hex_zones.png)
+![Image](gmulea1.github.io/hex_zones2.png)
+![Image]()
+![Image]()
 
 
 # Gregory Mulea
