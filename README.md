@@ -95,5 +95,7 @@ Using the percent from each buffer zone, I created a graph in excel that compare
 
 ![Image]( gmulea1.github.io/balt_zones.png )
 
+This graph reveals the relationship of certain zones compared to distance from the River.  There are 4 main zones that change with distance: <span style="color:#2f57e7">Commercial</span>, <span style="color:#37a040">Residential</span>, <span style="color:#eada46">Industrial</span>, and <span style="color:#00ec00">Open Space</span>.  The rest of the zones remain below 10% at any distance from the River.
+
 ![Image]( gmulea1.github.io/hex1.JPG "3D Veiw of Baltimore City")
 [3D Image Download](gmulea1.github.io/hex.gltf)
