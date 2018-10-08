@@ -78,6 +78,11 @@ end
 </p>
 </details>
 
+---
+Next, using a SQLite Database to create buffers at each mile away from the Patapsco River.
+
+> select st_difference(st_buffer(st_transform(geometry, 26913), 1610*10), st_buffer(st_transform(geometry, 26913), 1610*6)) from water
+
 ![Image]( gmulea1.github.io/balt_zones.png )
 
 ![Image]( gmulea1.github.io/hex1.JPG "3D Veiw of Baltimore City")
