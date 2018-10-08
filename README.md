@@ -82,6 +82,7 @@ end
 Next, I used a SQLite Database to create buffers at each mile away from the Patapsco River.
 
 > #### _Example for the buffer from 5 - 6 miles from the River_
+
 > select st_difference(st_buffer(st_transform(geometry, 26913), 1610\*6), st_buffer(st_transform(geometry, 26913), 1610\*5)) from water
 
 I calculated the geometry for each property zone and calculated the total area for each buffer area.  Than, using the SQLite Database again I calculated the area of each zoning type and the percent of each zone in the each buffer.
