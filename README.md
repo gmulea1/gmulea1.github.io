@@ -91,7 +91,7 @@ I calculated the geometry for each property zone and calculated the total area f
 
 > select simple, sum(area) as "1 Mile Area", (sum(area)/totalarea)*100 as "1 Mile Percent" from "1mile_zone" group by simple order by "1 Mile Percent" desc
 
-Using the percent from each buffer zone, I created a graph in excel that compares the distance to the percent area for each zone type.
+Using the percent from each buffer zone, I created a graph in excel that compares the distance to the percent area for each zone type.  I generated a pdf combining the graph and a map of the Baltimore City Zones (NAD 83 / Maryland Projection).
 
 ![Image]( gmulea1.github.io/balt_zones.png )
 
@@ -99,7 +99,9 @@ This graph reveals the relationship of certain zones compared to distance from t
 
 The Commercial and Industrial Zones dominate the first mile from the River with a moderate amount of Residential and low Open Space.  While Commercial and Industrial occupy the same percent of area they do not occupy the same Geographical areas.  Commercial Zones occupies the area near to the North of the River (the center of Baltimore City) while the Industrial Zones occupy the majority of the area South of the city along the River.
 
-As distance increases from the River; Commercial and Industrial Zoning decreases and Residential Zoning increases rapidly.  
+As distance increases from the River; Commercial and Industrial Zoning decreases and Residential Zoning increases rapidly.  Open Space increases and has a small peak at 3 miles and then decreases over the rest of distance.  Residential Zones Dominate the area after 3/4 miles away from the River, and reach almost 90% of the total zoning area.  
 
-![Image]( gmulea1.github.io/hex1.JPG "3D Veiw of Baltimore City")
+Lastly, I created a grid of hexagons to be used for 3D Viewing.  I used a spatial zone to join the grid to the percent of each zone.
+
+![Image]( gmulea1.github.io/hex1.JPG "3D View of Baltimore City")
 [3D Image Download](gmulea1.github.io/hex.gltf)
