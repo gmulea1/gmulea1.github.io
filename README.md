@@ -1,3 +1,12 @@
+Gregory Mulea
+===
+## Zoning in Baltimore City
+
+![Image](Z:\486Workspace\project_1\product\he_zones.png)
+
+
+
+
 # Gregory Mulea
 
 You can use the [editor on GitHub](https://github.com/gmulea1/gmulea1.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
