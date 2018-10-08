@@ -88,6 +88,7 @@ Next, I used a SQLite Database to create buffers at each mile away from the Pata
 I calculated the geometry for each property zone and calculated the total area for each buffer area.  Than, using the SQLite Database again I calculated the area of each zoning type and the percent of each zone in the each buffer.
 
 > #### _Example for the buffer 1 mile or less from the River_
+
 > select simple, sum(area) as "1 Mile Area", (sum(area)/totalarea)*100 as "1 Mile Percent" from "1mile_zone" group by simple order by "1 Mile Percent" desc
 
 ![Image]( gmulea1.github.io/balt_zones.png )
