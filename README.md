@@ -109,4 +109,4 @@ Lastly, I created a grid of hexagons to be used for 3D Viewing.  I used a spatia
 [3D Image Download](gmulea1.github.io/hex.gltf)
 
 
-###### Gregory Mulea
+#### Gregory Mulea
