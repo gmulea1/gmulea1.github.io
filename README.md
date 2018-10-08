@@ -8,7 +8,7 @@ First I had to sort and reclassify the zoning column to fit the categories of Co
 
 <details>
 <summary>
-<i>case - when </i>
+<i>Click to View case - when </i>
 </summary>
 <p>
 <blockquote> case <br />
