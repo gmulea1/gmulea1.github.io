@@ -1,6 +1,8 @@
-## Project 2 - Gregory Mulea
-### Change in Baltimore City Land Use Over Time
+---
+title: Change in Baltimore City Land Use Over Time
+---
 
+## Project 2 - Gregory Mulea
 ---
 
 ![Land Use Change](LU.gif)
