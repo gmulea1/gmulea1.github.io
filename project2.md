@@ -3,7 +3,7 @@
 
 ---
 
-![Land Use Change](LU.gif)![Legend](legend2.jpg)
+![Land Use Change](LU.gif)![Legend](legend2.png)
 
 In this project I analyzed 3 different land use shapefiles from different times in Baltimore City.  The three years I analyzed are 1973, 2002, and 2010.  First I had to reclassify the shapefiles to convert the code numbers to strings such as Residential, Commercial, Industrial, etc.  I then had to load in the shapefiles and I used python to load all three at the same time and add an already made styles.
 
