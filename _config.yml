@@ -2,7 +2,7 @@ remote_theme: daviddarnes/alembic
 
 navigation_header:
   Home: /
-  Project 1: /project1_bamap/project1.html
-  Project 2: /project2_sfi/project2.html
-  Project 3: /project1_bamap/project1.html
-  Project 4: /project1_bamap/project1.html
+  Project 1: /project_1/project1.html
+  Project 2: /project_2/project2.html
+  Project 3: /project_3/project3.html
+  Project 4: /project_4/project4.html
