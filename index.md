@@ -9,7 +9,7 @@ title: Gregory Mulea's Portfolio
 
 ![It's Fine Alt Text](project1_bamap/p1_teaser.png)
 
-[See more details here.](https://dillonma.github.io/project1_bamap/project1.html)
+[See more details here.](https://gmulea1.github.io/project_1/project1.html)
 
 This teaser is a 350px x 200px teaser image. Mauris sollicitudin elementum ipsum et auctor. Pellentesque sollicitudin aliquet quam, non vulputate mi tincidunt a. Quisque ultricies lectus mattis leo pharetra fringilla. 
 
@@ -26,7 +26,7 @@ This teaser is a 350px x 200px teaser image. Mauris sollicitudin elementum ipsum
 
 ![It's Fine Alt Text](project2_sfi/p2_teaser.png)
 
-[See more details here.](https://dillonma.github.io/project2_sfi/project2.html)
+[See more details here.](https://gmulea1.github.io/project_2/project2.html)
 
 The text below is smaller than the rest of this text. I used html tags for `small` and wrapped the text like this:
 
@@ -51,7 +51,7 @@ Notice I used markdown inside the html tags.
 
 ![It's Fine Alt Text](project3_demo/p3_teaser.png)
 
-[See more details here.](https://dillonma.github.io/project1_bamap/project1.html)
+[See more details here.](https://gmulea1.github.io/project_3/project3.html)
 
 This project uses a 350px square image for the teaser image, but inside the square image, I used a circle to highlight a certain area. Pellentesque eget mauris vel mi tristique finibus vitae quis massa. Mauris vulputate, nulla vel tincidunt interdum, sem mauris scelerisque neque, suscipit pellentesque felis augue a erat. 
 
@@ -68,7 +68,7 @@ This project uses a 350px square image for the teaser image, but inside the squa
 
 ![It's Fine Alt Text](project4_demo/p4_teaser.png)
 
-[See more details here.](https://dillonma.github.io/project2_sfi/project2.html)
+[See more details here.](https://gmulea1.github.io/project_4/project4.html)
 
 Phasellus consequat quam elit, et iaculis risus pellentesque aliquet. Proin ut enim dui. Ut elementum, purus nec rhoncus sagittis, nibh nunc auctor nulla, eu condimentum nisi velit eget magna. Nulla feugiat tincidunt dictum. Vestibulum congue sapien elit. Maecenas non sodales ligula, quis tempor mi. 
 
