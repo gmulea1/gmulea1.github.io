@@ -1,6 +1,10 @@
-## Project 2 - Gregory Mulea
-### Change in Baltimore City Land Use Over Time
-
+---
+title: Project 3
+feature_image: "p2_feature.png"
+feature_text: |
+  ## Change in Baltimore City Land Use Over Time
+  This is a demo of a project page for GES.
+  
 ---
 
 ![Land Use Change](LU.gif)![Legend](legend3.png)
