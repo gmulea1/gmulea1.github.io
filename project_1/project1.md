@@ -1,4 +1,11 @@
-# Zoning in Baltimore City
+---
+title: Project 1
+feature_image: "p2_feature.png"
+feature_text: |
+  ## Storefront Index
+  This is a demo of a project page for GES.
+  
+---
 
 In this project, I am analyzing the distribution of zones versus the distance from the Patapsco River.
 
