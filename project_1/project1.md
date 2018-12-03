@@ -1,9 +1,9 @@
 ---
 title: Project 1
-feature_image: "p2_feature.png"
+feature_image: "p1_banner.PNG"
 feature_text: |
-  ## Storefront Index
-  This is a demo of a project page for GES.
+  ## Zoning in Baltimore
+  With Respect to Distance from the Patapsco River
   
 ---
 
