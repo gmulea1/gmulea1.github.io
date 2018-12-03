@@ -7,16 +7,16 @@ title: Gregory Mulea's Portfolio
 
 ### Project 1 
 
-![It's Fine Alt Text](project1_bamap/p1_teaser.png)
+![It's Fine Alt Text](project_1/p1_teaser.PNG)
 
 [See more details here.](https://gmulea1.github.io/project_1/project1.html)
 
 This teaser is a 350px x 200px teaser image. Mauris sollicitudin elementum ipsum et auctor. Pellentesque sollicitudin aliquet quam, non vulputate mi tincidunt a. Quisque ultricies lectus mattis leo pharetra fringilla. 
 
-<small>__Tools__: QGIS, Interpolation, Photoshop</small>
+<small>__Tools__: QGIS, QGIS2ThreeJs</small>
 
 <small>__Data__: 
-[Supportland](https://supportland.com/), [Oregon Craft Brew Guild](https://oregoncraftbeer.org/guild/)</small>
+[Baltimore Real Property Dataset](http://gis-baltimore.opendata.arcgis.com/datasets/b41551f53345445fa05b554cd77b3732_0)</small>
 
 </div>
 
