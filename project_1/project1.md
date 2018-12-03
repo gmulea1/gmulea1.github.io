@@ -93,7 +93,7 @@ I calculated the geometry for each property zone and calculated the total area f
 
 Using the percent from each buffer zone, I created a graph in excel that compares the distance to the percent area for each zone type.  I generated a pdf combining the graph and a map of the Baltimore City Zones (NAD 83 / Maryland Projection).
 
-![Image]( gmulea1.github.io/balt_zones.png )
+![Image](balt_zones.png)
 
 This graph reveals the relationship of certain zones compared to distance from the River.  There are 4 main zones that change with distance: <span style="color:#2f57e7">Commercial</span>, <span style="color:#37a040">Residential</span>, <span style="color:#eada46">Industrial</span>, and <span style="color:#00ec00">Open Space</span>.  The rest of the zone types remain below 10% at any distance from the River.
 
@@ -105,8 +105,8 @@ As distance increases from the River; Commercial and Industrial Zoning decreases
 
 Lastly, I created a grid of hexagons to be used for 3D Viewing.  I used a spatial zone to join the grid to the percent of each zone.  Using Qgis2threejs plugin in QGIS I created a 3D image of the relative percent colored by the type of zoning. This best shows the sharp increase in the Residential Zoning as you move further from the River.
 
-![Image]( gmulea1.github.io/hex1.JPG "3D View of Baltimore City")
-[3D Image Download](gmulea1.github.io/hex.gltf)
+![Image](hex1.JPG "3D View of Baltimore City")
+[3D Image Download](hex.gltf)
 
 
 #### Gregory Mulea
