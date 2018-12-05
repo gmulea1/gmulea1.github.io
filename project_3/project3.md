@@ -3,7 +3,7 @@ title: Project 3
 feature_image: "p2_feature.png"
 feature_text: |
   ## Change in Baltimore City Land Use Over Time
-  This is a demo of a project page for GES.
+  From 1973 - 2010
   
 ---
 
