@@ -49,7 +49,7 @@ Notice I used markdown inside the html tags.
 
 ### Project 3 
 
-![It's Fine Alt Text](project3/teaser.PNG)
+![It's Fine Alt Text](project_3/teaser.PNG)
 
 [See more details here.](https://gmulea1.github.io/project_3/project3.html)
 
