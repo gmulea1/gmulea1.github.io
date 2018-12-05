@@ -1,6 +1,6 @@
 ---
 title: Project 3
-feature_image: "p2_feature.png"
+feature_image: "feature.png"
 feature_text: |
   ## Change in Baltimore City Land Use Over Time
   From 1973 - 2010
