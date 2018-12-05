@@ -6,9 +6,8 @@ title: Gregory Mulea's Portfolio
 <div style="display: table-cell; width:370px; margin-right:3px" markdown="1">
 
 ### Zoning In Baltimore
-#### Distance From the Patapsco
 
-![It's Fine Alt Text](project_1/p1teaser.png)
+![Zoning](project_1/p1teaser.png)
 
 [See more details here.](https://gmulea1.github.io/project_1/project1.html)
 
@@ -48,9 +47,9 @@ Notice I used markdown inside the html tags.
 <div style="display:table-row; width:100%; table-layout: fixed">
 <div style="display: table-cell; width:370px; margin-right:3px" markdown="1">
 
-### Project 3 
+### Land Use Change in Baltimore
 
-![It's Fine Alt Text](project_3/teaser.PNG)
+![Land Use Change](project_3/teaser.PNG)
 
 [See more details here.](https://gmulea1.github.io/project_3/project3.html)
 
