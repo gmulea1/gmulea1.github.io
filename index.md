@@ -7,7 +7,7 @@ title: Gregory Mulea's Portfolio
 
 ### Project 1 
 
-![It's Fine Alt Text](project_1/p1_teaser.png)
+![It's Fine Alt Text](project_1/p1teaser.png)
 
 [See more details here.](https://gmulea1.github.io/project_1/project1.html)
 
