@@ -5,7 +5,8 @@ title: Gregory Mulea's Portfolio
 <div style="display:table-row; width:100%; table-layout: fixed">
 <div style="display: table-cell; width:370px; margin-right:3px" markdown="1">
 
-### Project 1 
+### Zoning In Baltimore
+## Distance From the Patapsco
 
 ![It's Fine Alt Text](project_1/p1teaser.png)
 
