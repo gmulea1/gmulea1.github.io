@@ -55,7 +55,7 @@ Notice I used markdown inside the html tags.
 
 This project uses a 350px square image for the teaser image, but inside the square image, I used a circle to highlight a certain area. Pellentesque eget mauris vel mi tristique finibus vitae quis massa. Mauris vulputate, nulla vel tincidunt interdum, sem mauris scelerisque neque, suscipit pellentesque felis augue a erat. 
 
-<small>__Tools__: QGIS, Interpolation, Photoshop
+<small>__Tools__: QGIS, Photoshop
 
 <small>__Data__: 
 [Supportland](https://supportland.com/), [Oregon Craft Brew Guild](https://oregoncraftbeer.org/guild/)</small>
