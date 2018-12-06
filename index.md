@@ -24,7 +24,7 @@ This is an analysis of the distribution of zoning types versus the distancce fro
 
 ### Project 2
 
-![Maryland Elevation](project_2/teaser.png)
+![Maryland Elevation](project_2/p2_teaser.png)
 
 [See more details here.](https://gmulea1.github.io/project_2/project2.html)
 
