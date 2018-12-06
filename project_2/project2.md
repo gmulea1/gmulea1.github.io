@@ -9,7 +9,10 @@ feature_text: |
 
 In this Project I used a DEM Tif to create different ways to visualize elevation in Maryland.
 
+### Maryland DEM
 ![](MD_relief.png)
+
+This is a simple DEM clipped to the state of Maryland and colored.
 
 ### 3D Map of Maryland
 ![](3dMD2.png)
