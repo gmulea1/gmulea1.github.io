@@ -33,7 +33,7 @@ This is a display of elevation in Maryland
 <small>__Tools__: QGIS</small>
 
 <small>__Data__:
-[Census Streets](https://www.census.gov/cgi-bin/geo/shapefiles/index.php), US Business Directory (defunct)</small>
+Maryland DEM</small>
 
 </div>
 </div>
