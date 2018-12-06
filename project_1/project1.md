@@ -2,8 +2,8 @@
 title: Project 1
 feature_image: "p1_banner.PNG"
 feature_text: |
-  <font size="7" color='black'><span style="background-color: #F9F9F9"> Zoning in Baltimore </span></font><br>
-  <font size="4" color='black'><span style="background-color: #F9F9F9"> With Respect to Distance from the Patapsco River </span></font>
+  <font size="7" color='black'><span style="background-color: #FDFDFD"> Zoning in Baltimore </span></font><br>
+  <font size="4" color='black'><span style="background-color: #FDFDFD"> With Respect to Distance from the Patapsco River </span></font>
   
 ---
 
