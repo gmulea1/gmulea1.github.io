@@ -22,7 +22,7 @@ This is an analysis of the distribution of zoning types versus the distancce fro
 
 <div style="display: table-cell; width:370px" markdown="1">
 
-### Project 2
+### Maryland Elevation
 
 ![Maryland Elevation](project_2/p2_teaser_final.png)
 
