@@ -2,8 +2,8 @@
 title: Project 3
 feature_image: "p3_feature.png"
 feature_text: |
-  <font size="7"><span style="background-color: #EEEEEE"> Change in Baltimore City Land Use </span></font><br>
-  <span style="background-color: #EEEEEE"> From 1973 - 2010 </span>
+  <font size="7"><span style="background-color: #F9F9F9"> Change in Baltimore City Land Use </span></font><br>
+  <font size="4" color='black'><span style="background-color: #F9F9F9"> From 1973 - 2010 </span></font>
   
 ---
 
