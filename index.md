@@ -21,6 +21,8 @@ This is an analysis of the distribution of zoning types versus the distancce fro
 </div>
 
 <div style="display: table-cell; width:370px" markdown="1">
+</div>
+<div style="display: table-cell; width:370px" markdown="1">
 
 ### Maryland Elevation
 
