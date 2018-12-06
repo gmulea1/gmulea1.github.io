@@ -2,7 +2,7 @@
 title: Project 3
 feature_image: "p3_feature.png"
 feature_text: |
-  <span style="background-color: #FFFFFF00">## Change in Baltimore City Land Use Over Time
+  <span style="background-color: #FFFFFF50">## Change in Baltimore City Land Use Over Time
   From 1973 - 2010</span>
   
 ---
