@@ -2,8 +2,8 @@
 title: Project 2
 feature_image: "feature.png"
 feature_text: |
-  ## Elevation of Maryland
-  Displayed With Different Methods
+  <font size="7"><span style="background-color: #FFFFFF"> Elevation of Maryland </span></font><br>
+  <span style="background-color: #FFFFFF"> Displayed With Different Methods </span>
   
 ---
 
