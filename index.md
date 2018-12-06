@@ -24,19 +24,13 @@ This is an analysis of the distribution of zoning types versus the distancce fro
 
 ### Project 2
 
-![It's Fine Alt Text](project2_sfi/p2_teaser.png)
+![Maryland Elevation](project_2/teaser.png)
 
 [See more details here.](https://gmulea1.github.io/project_2/project2.html)
 
-The text below is smaller than the rest of this text. I used html tags for `small` and wrapped the text like this:
+This is a display of elevation in Maryland 
 
-```html
-<small>Text to *make* small.</small>
-```
-
-Notice I used markdown inside the html tags. 
-
-<small>__Tools__: QGIS, R</small>
+<small>__Tools__: QGIS</small>
 
 <small>__Data__:
 [Census Streets](https://www.census.gov/cgi-bin/geo/shapefiles/index.php), US Business Directory (defunct)</small>
