@@ -58,7 +58,7 @@ This project looks at the change in Land Use in Baltimore County from 1973 to 20
 
 <div style="display: table-cell; width:370px" markdown="1">
 
-### Project 4       Coming Soon
+### Project 4</br>Coming Soon
 
 ![Coming Soon](project_4/p4_teaser.png)
 
