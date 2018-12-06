@@ -12,5 +12,5 @@ In this Project I used a DEM Tif to create different ways to visualize elevation
 ![](3dMD.png)
 ![](3dMD2.png)
 
-![](MD_Relief.png)
+![](MD_relief.png)
 ![](MD_poly.png)
