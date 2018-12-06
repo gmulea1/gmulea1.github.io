@@ -11,7 +11,7 @@ title: Gregory Mulea's Portfolio
 
 [See more details here.](https://gmulea1.github.io/project_1/project1.html)
 
-This teaser is a 350px x 200px teaser image. Mauris sollicitudin elementum ipsum et auctor. Pellentesque sollicitudin aliquet quam, non vulputate mi tincidunt a. Quisque ultricies lectus mattis leo pharetra fringilla. 
+This is an analysis of the distribution of zoning types versus the distancce from the Patapsco River.   
 
 <small>__Tools__: QGIS, QGIS2ThreeJs</small>
 
@@ -53,12 +53,12 @@ Notice I used markdown inside the html tags.
 
 [See more details here.](https://gmulea1.github.io/project_3/project3.html)
 
-This project uses a 350px square image for the teaser image, but inside the square image, I used a circle to highlight a certain area. Pellentesque eget mauris vel mi tristique finibus vitae quis massa. Mauris vulputate, nulla vel tincidunt interdum, sem mauris scelerisque neque, suscipit pellentesque felis augue a erat. 
+This project looks at the change in Land Use in Baltimore County from 1973 to 2010.  
 
 <small>__Tools__: QGIS, Photoshop
 
 <small>__Data__: 
-[Supportland](https://supportland.com/), [Oregon Craft Brew Guild](https://oregoncraftbeer.org/guild/)</small>
+[Maryland Archived Land Use Land Cover 1973](http://data.imap.maryland.gov/datasets/maryland-archived-land-use-land-cover-1973), [Maryland Archived Land Use Land Cover 2002](http://data.imap.maryland.gov/datasets/maryland-archived-land-use-land-cover-2002), [Maryland Land Use Land Cover - Land Use Land Cover 2010](http://data.imap.maryland.gov/datasets/maryland-land-use-land-cover-land-use-land-cover-2010)</small>
 
 </div>
 
