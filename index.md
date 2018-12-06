@@ -3,7 +3,7 @@ title: Gregory Mulea's Portfolio
 ---
 <!--This is the first row of projects -->
 <div style="display:table-row; width:100%; table-layout: fixed">
-<div style="display: table-cell; width:370px; margin-right:300px" markdown="1">
+<div style="display: table-cell; width:370px; margin-right:3px" markdown="1">
 
 ### Zoning In Baltimore
 
@@ -20,6 +20,10 @@ This is an analysis of the distribution of zoning types versus the distancce fro
 
 </div>
 
+<div style="display:table-row; width:100%; table-layout: fixed">
+<div style="display: table-cell; width:50px; margin-right:3px" markdown="1">
+</div>
+  
 <div style="display: table-cell; width:370px" markdown="1">
 
 ### Maryland Elevation
@@ -39,7 +43,7 @@ Maryland DEM</small>
 </div>
 <!--This is the second row of projects -->
 <div style="display:table-row; width:100%; table-layout: fixed">
-<div style="display: table-cell; width:370px; margin-right:30px" markdown="1">
+<div style="display: table-cell; width:370px; margin-right:3px" markdown="1">
 
 ### Land Use Change in Baltimore
 
