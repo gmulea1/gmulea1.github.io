@@ -22,4 +22,4 @@ This map uses the value of the DEM to create a 3D map of Maryland.  It is color 
 ### Maryland Elevation Polygons
 ![](MD_poly.png)
 
-The last elevation map I made uses polygons to represent elevation.  First I split the original DEM into 5 different catagories based on elevation and then I polyginized the raster.
+The last elevation map I made uses polygons to represent elevation.  I split the original DEM into 5 different catagories based on elevation and then I polyginized the raster.
