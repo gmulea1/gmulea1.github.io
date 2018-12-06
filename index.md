@@ -60,7 +60,7 @@ This project looks at the change in Land Use in Baltimore County from 1973 to 20
 
 ### Project 4
 
-![It's Fine Alt Text](project4_demo/p4_teaser.png)
+![It's Fine Alt Text](project_4/p4_teaser.png)
 
 [See more details here.](https://gmulea1.github.io/project_4/project4.html)
 
