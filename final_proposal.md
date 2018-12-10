@@ -7,5 +7,5 @@ feature_text: |
   
 ---
 
-Continuing from my project two, I am going to look at the chamge in zomomg and how it relates (if at all) to the spatial distribution of different races.  I plan on using the same data from Project two im addition to census demographic data.  [Vital Signs Archive](https://bniajfi.org/vital_signs/archives/).  First I plan to use a SQL statement to join different
+Continuing from my project two, I am going to look at the chamge in zomomg and how it relates (if at all) to the spatial distribution of different races.  I plan on using the same data from Project two im addition to census demographic data.  [Vital Signs Archive](https://bniajfi.org/vital_signs/archives/).  First I plan to use a SQL statement to spatial join different
 
