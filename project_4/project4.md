@@ -19,4 +19,4 @@ This will be more involved than the labs because It involves using multiple diff
 
 
 ### Results
-[3D Map of The Study Area](3dmap.png)
+![3D Map of The Study Area](3dmap.png)
