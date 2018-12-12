@@ -1,5 +1,5 @@
 ---
-title: Final Project Proposal
+title: Project 4
 feature_image: ""
 feature_text: |
   <font size="7" color='black'><span style="background-color: #FDFDFD"> Yellowstone Streams </span></font><br>
