@@ -101,8 +101,11 @@ for f in sites.getFeatures():
 # Commits Changes
 sites.commitChanges()
 ```
+I have also created a 3D image of the area that includes the four gages for which I have data.  That is below in the results section.
 
+I am currently working on a watershed analysis using ArcMap, as my DEM raster file is huge and posed problems within QGIS.  
 
+![Flow Map of the Yellowstone Region](flowmap.JPG)
 
 ### Results
 ![3D Map of The Study Area](3dmap.png)
