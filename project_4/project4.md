@@ -17,6 +17,17 @@ In addition to using SQL and Python I plan on creating a 3d Map using the DEM fi
 
 This will be more involved than the labs because It involves using multiple different tools on a large dataset.  It also involves tools I have not yet used (watershed analysis) which I am excited to use.  I choose this project because the Yellowstone Area is very interseting and I wanted to examine the snowmelt processes that drive the Stream Discharge.
 
+### Progress
+So far I have selected my area using SQL
+```
+SELECT sites.ogc_fid, fid_sites, site_no, station_nm, state, st_transform(sites.geometry, 26913) as geometry
+FROM sites
+JOIN yellowstone_10mile
+ON st_intersects(st_transform(sites.geometry, 26913), st_transform(yellowstone_10mile.geometry, 26913))
+```
+
+
+
 
 ### Results
 ![3D Map of The Study Area](3dmap.png)
