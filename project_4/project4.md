@@ -25,7 +25,82 @@ FROM sites
 JOIN yellowstone_10mile
 ON st_intersects(st_transform(sites.geometry, 26913), st_transform(yellowstone_10mile.geometry, 26913))
 ```
+I than downloaded the data from USGS using the Site Numbers of the gages inside the 10 mile buffer area.
 
+Using Python I was able to determine the max an min values and add those to the sites attribute table.
+```python
+# Layer Containing the USGS Gage Sites
+sites = QgsVectorLayer("Z:/486Workspace/project_3/data/10mile_sites.shp",
+"", "ogr")
+
+# Layer Containing the Monthly Data from USGS Website
+data = QgsVectorLayer("Z:/486Workspace/project_3/data/monthly.csv",
+"", "ogr")
+
+# Adding the 4 Fields to Sites Layer (max, min, month_max, and min_max)
+field = QgsField('max', QVariant.Double)
+sites.startEditing()
+sites.dataProvider().addAttributes([field])
+sites.updateFields()
+idx = sites.dataProvider().fieldNameIndex('max')
+
+field = QgsField('min', QVariant.Double)
+sites.startEditing()
+sites.dataProvider().addAttributes([field])
+sites.updateFields()
+idx2 = sites.dataProvider().fieldNameIndex('min')
+
+field = QgsField('month_max', QVariant.Int)
+sites.startEditing()
+sites.dataProvider().addAttributes([field])
+sites.updateFields()
+idx3 = sites.dataProvider().fieldNameIndex('month_max')
+
+field = QgsField('month_min', QVariant.Int)
+sites.startEditing()
+sites.dataProvider().addAttributes([field])
+sites.updateFields()
+idx4 = sites.dataProvider().fieldNameIndex('month_min')
+
+# Empty Lists for Values from Data File
+myM = []
+month = []
+
+# For Loop to Cycle Through All Features in Sites
+for f in sites.getFeatures():
+    # For Loop to Cycle Through All Features in Data
+    for f2 in data.getFeatures():
+        # If Statement to Check Whether the Site Number Matches
+        if f['site_no'] == f2['site_no']:
+            # Adds Values to Lists From Data File
+            myM.append(float(f2['mean']))
+            month.append(f2['month'])
+    # If List is Empty Do Nothing
+    if not myM:
+        print()
+    else:
+        # Creates a New Sorted List From Original List
+        Msort = list(myM)
+        Msort.sort()
+        # Obtains the Max and Min Values from Sorted List
+        max = Msort.pop()
+        min = Msort[0]
+        # Adds Max and Min Values to Sites File
+        f[idx] = max
+        f[idx2] = min
+        # Find Matching Month for Max and Min Values and Adds it to Sites File
+        max_idx = myM.index(max)
+        f[idx3] = month[max_idx]
+        min_idx = myM.index(min)
+        f[idx4] = month[min_idx]
+    # Resets Lists to Empty
+    myM = []
+    month = []
+    # Updates Sites File
+    sites.updateFeature(f)
+# Commits Changes
+sites.commitChanges()
+```
 
 
 
