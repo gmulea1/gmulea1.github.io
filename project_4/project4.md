@@ -106,6 +106,8 @@ I have also created a 3D image of the area that includes the four gages for whic
 I am currently working on a watershed analysis using ArcMap, as my DEM raster file is huge and posed problems within QGIS.  
 
 ![Flow Map of the Yellowstone Region](flowmap.JPG)
+This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.  This will be used to create a accumulation map (map of how much water will flow throuhg each pixel) and finally into a watershed basin map.  
+
 
 ### Results
 ![3D Map of The Study Area](3dmap.png)
