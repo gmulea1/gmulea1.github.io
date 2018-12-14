@@ -112,3 +112,4 @@ This is a flow map of the Yellowstone Region and it uses the DEM to calculate th
 
 ### Results
 ![3D Map of The Study Area](3dmap.png)
+![Map of Yellowstone](map1.png)
