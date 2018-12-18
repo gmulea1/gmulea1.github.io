@@ -106,7 +106,6 @@ I have also created a 3D image of the area that includes the four gages for whic
 I did a watershed analysis using ArcMap, as the DEM raster file is huge and posed problems within QGIS.  The first step to a watershed analysis is to use the fill tool in order to get rid of any anomalies in the data.  Then I ran a flow direction tool and got the following raster as an output.
 
 ![Flow Map of the Yellowstone Region](flowmap.JPG)
-
 This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.  The four orange circles are where the stream gages are located.  
 
 
@@ -116,8 +115,13 @@ Lastly, I used the watershed tool to calculate the watershed areas for each stre
 
 ### Results
 ![3D Map of The Study Area](3dmap.png)
+This is a 3D map of the study area created using QGIS and the Yellowstone DEM.  The stream gages are shown with their matching site number.
+
 ![Map of Yellowstone](map1.png)
+This is a map of the area with the stream gages displayed.  The labels on each gage correspond to the site number, max discharge for the year 2003, and the drainage area from USGS.
+
 ![Watershed Areas](watershed.png)
-![Disharge Graph](disharge.JPG)
+This is a map of the watershed areas that I calculated using ArcMap.  Because the gage for Boundary Creek (13046680) is so small and rests on a relatively flat area, ArcMap was unable to create a proper area for that point.  For the other points, the actual drainage areas that I calculated from the watershed analysis where only off by a few square miles when compared to the official areas from USGS.
 
-
+![Disharge Graph](hydrograph.PNG)
+This graph shows the hydrograph for 2003 using the average discharge in CFS for each month.  As you can see, the peak discharge occurs in the month of May for each stream.  Although site 13047500 and 13046995 are relatively close to one another and originate from the same watershed, 
