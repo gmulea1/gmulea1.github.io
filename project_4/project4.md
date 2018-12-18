@@ -9,23 +9,23 @@ feature_text: |
 
 ### Proposal
 
-For this project, I will be analyzing annual water flows for rivers and streams in the Yellowstone National Park Area.  I want to figure out if catchment area size affects the rate of snowmelt discharge through streams in the Yellowstone Area.  To do this I will first use SQL to select USGS Stream Gages that within a 10 mile buffer zone of Yellowstone.  Next I will download data from USGS's website and use python to find the max and min disharge values for specific streams and match that to the Gages around Yellowstone.  Using Python, I will create a script to match the max and min values to their respective Gages and update the attribute table.  
+For this project, I will be analyzing annual water flows for rivers and streams in the Yellowstone National Park Area.  I want to figure out if catchment area size affects the rate of snowmelt discharge through streams in the Yellowstone Area.  To do this I will first use SQL to select USGS Stream Gages that within a 10-mile buffer zone of Yellowstone.  Next, I will download data from USGS's website and use python to find the max and min discharge values for specific streams and match that to the Gages around Yellowstone.  Using Python, I will create a script to match the max and min values to their respective Gages and update the attribute table.  
 
 My data will come from [DEM of Yellowstone Area](https://viewer.nationalmap.gov/basic/?category=ned#productGroupSearch), [Stream Polyon](http://download.geofabrik.de/north-america.html), [Polygon of USA](https://www.census.gov/geo/maps-data/data/cbf/cbf_state.html), [Polygon of Wyoming and its Counties](http://explorer.geospatialhub.org/geoportal/catalog/search/resource/details.page?uuid=%7B92A25871-C08A-48CF-8EF1-02870081D0C2%7D), [Polygon of Yellowstone](https://www.sciencebase.gov/catalog/item/4ffb3aebe4b0c15d5ce9fc0b), and [USGS Site for Monthly Data from Specific Site Numbers](https://waterdata.usgs.gov/nwis/monthly?referred_module=sw&search_criteria=site_no_file_attachment&submitted_form=introduction)
 
-In addition to using SQL and Python I plan on creating a 3d Map using the DEM file.  Time permitted I will also run a watershed analysis to determine the watershed areas of each stream gage I will use.  
+In addition to using SQL and Python, I plan on creating a 3d Map using the DEM file.  Time permitted I will also run a watershed analysis to determine the watershed areas of each stream gage I will use.  
 
-This will be more involved than the labs because It involves using multiple different tools on a large dataset.  It also involves tools I have not yet used (watershed analysis) which I am excited to use.  I choose this project because the Yellowstone Area is very interseting and I wanted to examine the snowmelt processes that drive the Stream Discharge.
+This will be more involved than the labs because It involves using multiple different tools on a large dataset.  It also involves tools I have not yet used (watershed analysis) which I am excited to use.  I choose this project because the Yellowstone Area is very interesting and I wanted to examine the snowmelt processes that drive the Stream Discharge.
 
-### Progress
-So far I have selected my area using SQL
+### Steps
+First, I selected my focus area using SQL
 ```
 SELECT sites.ogc_fid, fid_sites, site_no, station_nm, state, st_transform(sites.geometry, 26913) as geometry
 FROM sites
 JOIN yellowstone_10mile
 ON st_intersects(st_transform(sites.geometry, 26913), st_transform(yellowstone_10mile.geometry, 26913))
 ```
-I than downloaded the data from USGS using the Site Numbers of the gages inside the 10 mile buffer area.
+I then downloaded the data from USGS using the Site Numbers of the gages inside the 10-mile buffer area.
 
 Using Python I was able to determine the max an min values and add those to the sites attribute table.
 ```python
@@ -103,15 +103,21 @@ sites.commitChanges()
 ```
 I have also created a 3D image of the area that includes the four gages for which I have data.  That is below in the results section.
 
-I am currently working on a watershed analysis using ArcMap, as my DEM raster file is huge and posed problems within QGIS.  
+I did a watershed analysis using ArcMap, as the DEM raster file is huge and posed problems within QGIS.  The first step to a watershed analysis is to use the fill tool in order to get rid of any anomalies in the data.  Then I ran a flow direction tool and got the following raster as an output.
 
 ![Flow Map of the Yellowstone Region](flowmap.JPG)
 
-This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.  This will be used to create a accumulation map (map of how much water will flow throuhg each pixel) and finally into a watershed basin map.  
+This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.  The four orange circles are where the stream gages are located.  
 
+
+I then ran a flow accumulation tool on the flow direction raster which uses the flow direction raster to calculate the accumulated flow at each pixel.
+
+Lastly, I used the watershed tool to calculate the watershed areas for each stream gage.  Polygonizing the watershed raster I was able to create watersheds for my stream gages.  The output map is below in the results section.
 
 ### Results
 ![3D Map of The Study Area](3dmap.png)
 ![Map of Yellowstone](map1.png)
 ![Watershed Areas](watershed.png)
 ![Disharge Graph](disharge.JPG)
+
+
