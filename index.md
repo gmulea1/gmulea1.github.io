@@ -58,7 +58,7 @@ This project looks at the change in Land Use in Baltimore County from 1973 to 20
 
 <div style="display: table-cell; width:370px" markdown="1">
 
-### Yellowstone Streams
+### Yellowstone Streams and Watersheds
 
 ![Yellowstone Watersheds](project_4/p4teaser.png)
 
