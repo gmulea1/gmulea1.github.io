@@ -2,8 +2,8 @@
 title: Project 4
 feature_image: "p4feature3.png"
 feature_text: |
-  <font size="7" color='black'><span style="background-color: #FDFDFD"> Yellowstone Streams </span></font><br>
-  <font size="4" color='black'><span style="background-color: #FDFDFD"> Snowmelt and Discharge </span></font>
+  <font size="7" color='white'><span style="background-color: #414142"> Yellowstone Streams </span></font><br>
+  <font size="4" color='white'><span style="background-color: #414142"> Snowmelt and Discharge </span></font>
   
 ---
 
