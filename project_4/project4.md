@@ -105,9 +105,9 @@ I have also created a 3D image of the area that includes the four gages for whic
 
 I did a watershed analysis using ArcMap, as the DEM raster file is huge and posed problems within QGIS.  The first step to a watershed analysis is to use the fill tool in order to get rid of any anomalies in the data.  Then I ran a flow direction tool and got the following raster as an output.
 
-![Flow Map of the Yellowstone Region](flowmap.JPG)
-This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.  The four orange circles are where the stream gages are located.  
+![Flow Map of the Yellowstone Region](flowdir.PNG)
 
+This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.
 
 I then ran a flow accumulation tool on the flow direction raster which uses the flow direction raster to calculate the accumulated flow at each pixel.
 
