@@ -109,7 +109,7 @@ I did a watershed analysis using ArcMap, as the DEM raster file is huge and pose
 
 This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.
 
-![Flow Map of Site 13046995](zoomflow.PNG)
+![Flow Map of Site 13046995](zoomflow2.PNG)
 
 This is zoomed in on the flow map around site 13046995.  You can see the channel in light blue where the water flows West.  Above the channel the water flows South and below the channel the water flows North.
 
