@@ -109,6 +109,10 @@ I did a watershed analysis using ArcMap, as the DEM raster file is huge and pose
 
 This is a flow map of the Yellowstone Region and it uses the DEM to calculate the direction water will flow from each pixel.
 
+![Flow Map of Site 13046995](zoomflow.PNG)
+
+This is zoomed in on the flow map around site 13046995.  You can see the channel in light blue where the water flows West.  Above the channel the water flows South and below the channel the water flows North.
+
 I then ran a flow accumulation tool on the flow direction raster which uses the flow direction raster to calculate the accumulated flow at each pixel.
 
 Lastly, I used the watershed tool to calculate the watershed areas for each stream gage.  Polygonizing the watershed raster I was able to create watersheds for my stream gages.  The output map is below in the results section.
