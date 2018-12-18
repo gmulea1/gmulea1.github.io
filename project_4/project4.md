@@ -127,4 +127,9 @@ This is a map of the watershed areas that I calculated using ArcMap.  Because th
 This graph shows the hydrograph for 2003 using the average discharge in CFS for each month.  As you can see, the peak discharge occurs in the month of May for each stream.  This is potentially due to snowmelt, which is what drives much of the discharge in this area.  Although site 13047500 and 13046995 are relatively close to one another and originate from the same watershed, the site further away has a lower max discharge.  My hypothesis for this is due to the terrain in this area leveling out and the channel getting wider and shallower.  To test this I downloaded more data from the USGS website that gave me the depth and width for the gages at the max and minimum discharges in 2003.  Looking at this data it appears that my hypothesis was correct as site 13047500 has a width of 180 feet and a depth of 3.46 feet at max discharge in May 2003, while site 13046995 has a width of 124 feet and a depth of 8.24 feet at the same time.
 
 Using depth and width of the stream gages I created a rough visualization for the stream gages which show the streams at max and min discharge.
+
 ![Min 13047500](2min_13047500.png)![Max 13047500](2max_13047500.png)
+This is site 13047500 at its min disharge (top) and max discharge (bottom).
+
+![Min 13046995](2min_13046995.png)![Max 13047500](2max_13046995.png)
+This is site 13046995 at its min disharge (top) and max discharge (bottom).
