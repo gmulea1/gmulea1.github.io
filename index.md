@@ -19,7 +19,8 @@ This is an analysis of the distribution of zoning types versus the distancce fro
 [Baltimore Real Property Dataset](http://gis-baltimore.opendata.arcgis.com/datasets/b41551f53345445fa05b554cd77b3732_0)</small>
 
 </div>
-
+<div style="display:table-row; width:100%; table-layout: fixed">
+</div> 
 <div style="display: table-cell; width:370px" markdown="1">
 
 ### Maryland Elevation
@@ -55,7 +56,8 @@ This project looks at the change in Land Use in Baltimore County from 1973 to 20
 [Maryland Archived Land Use Land Cover 1973](http://data.imap.maryland.gov/datasets/maryland-archived-land-use-land-cover-1973), [Maryland Archived Land Use Land Cover 2002](http://data.imap.maryland.gov/datasets/maryland-archived-land-use-land-cover-2002), [Maryland Land Use Land Cover - Land Use Land Cover 2010](http://data.imap.maryland.gov/datasets/maryland-land-use-land-cover-land-use-land-cover-2010)</small>
 
 </div>
-
+<div style="display:table-row; width:100%; table-layout: fixed">
+</div> 
 <div style="display: table-cell; width:370px" markdown="1">
 
 ### Yellowstone Streams and Watersheds
